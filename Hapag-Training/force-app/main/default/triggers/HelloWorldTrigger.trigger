@@ -3,4 +3,3 @@ trigger HelloWorldTrigger on Account (before insert) {
         a.Description = 'New description';
     }   
 }
-
